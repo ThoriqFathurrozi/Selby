@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico" type="image/x-icon" />
+    <title>News</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Montserrat:ital,wght@0,400;0,700;0,800;1,600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- endfont -->
+    <!-- boxicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- end boxicon -->
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- end swiper js -->
+    <!-- link splide js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" />
+    <!-- end link splide js -->
+    <!-- link css -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style-news.css" />
+
+    <!-- end css -->
+  </head>
+  <body>
+    <!-- navabar -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="logo">
+          <img src="img/Logo SK.png" alt="" class="logo_img" />
+          <a href="#" class="logo_link">Selby</a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">
+                <i class="bx bx-home-alt nav_icon"></i>
+                <span class="nav_name">Home</span>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="index-news.html" class="nav_link">
+                <i class="bx bx-news nav_icon"></i>
+                <span class="nav_name">News</span>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="index-event.html" class="nav_link">
+                <i class="bx bx-calendar-event nav_icon"></i>
+                <span class="nav_name">Event</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="feature">
+          <div class="search_box">
+            <input type="text" class="search_text" placeholder="Type to search" />
+            <a href="#" class="btn">
+              <i class="bx bx-search"></i>
+            </a>
+          </div>
+          <div class="mobile_search">
+            <a href="#" class="btn">
+              <i class="bx bx-search"></i>
+            </a>
+          </div>
+          <a href="index-login.html">
+            <i class="bx bx-user-circle"></i>
+          </a>
+          <i class="bx bx-moon" id="icon"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- end navbar -->
+    <!-- main -->
+    <main>
+      <section class="slider_news">
+        <div class="header_news">
+          <h2>News Today</h2>
+        </div>
+        <div class="splide splide4">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="cont">
+                  <div class="img">
+                    <img src="https://images.unsplash.com/photo-1552960504-34e1e1be3f53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                  </div>
+                  <div class="text">
+                    <h2>Hello</h2>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro qui sed aspernatur</h4>
+                    <h6>10 june 2022</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cont">
+                  <div class="img">
+                    <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                  </div>
+                  <div class="text">
+                    <h2>Hello</h2>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro qui sed aspernatur</h4>
+                    <h6>10 june 2022</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cont">
+                  <div class="img">
+                    <img src="https://images.unsplash.com/photo-1558403194-611308249627?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                  </div>
+                  <div class="text">
+                    <h2>Hello</h2>
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro qui sed aspernatur</h4>
+                    <h6>10 june 2022</h6>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="trending_news">
+        <div class="header_news">
+          <h2>Trending News</h2>
+        </div>
+        <div class="trending_contents">
+          <div class="content">
+            <div class="content_container">
+              <img src="https://images.unsplash.com/photo-1640622842008-1897f26aafe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestias, totam maiores exercitationem</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- card script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <!-- end card script -->
+    <!-- script -->
+    <script src="js/main-news.js"></script>
+  </body>
+</html>

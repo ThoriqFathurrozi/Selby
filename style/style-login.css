@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fefdd8;
+  position: relative;
+  overflow: hidden;
+  color: #444;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* background */
+.background-img {
+  position: absolute;
+  width: 20%;
+}
+
+.bck-img1 {
+  width: 420px;
+  height: 737px;
+  left: -197px;
+  bottom: -33px;
+  opacity: 0.2;
+}
+
+.bck-img2 {
+  position: fixed;
+  width: 482px;
+  height: 846px;
+  top: -230px;
+  right: -158px;
+  opacity: 0.2;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* login */
+.login-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 125px;
+  height: 220px;
+}
+
+form .logo-text {
+  font-size: 118px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+form h5 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+  margin-top: -30px;
+  opacity: 0.8;
+}
+
+form h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.input {
+  max-width: 380px;
+  width: 80%;
+  height: 50px;
+  margin: 20px auto;
+  background-color: none;
+  border: 1px solid #444;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 5% 80%;
+  padding: 0 0.4rem;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.input i {
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.3rem;
+}
+
+.line {
+  justify-self: center;
+  align-self: center;
+  border-left: 1px solid #444;
+  height: 30px;
+}
+
+.input input {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1;
+}
+
+.input input:placeholder-shown {
+  font-weight: 400;
+}
+
+.btn {
+  width: 150px;
+  height: 49px;
+  outline: none;
+  border: none;
+  border-radius: 48px;
+  background-color: #fec50a;
+  color: #fefdd8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* dark mode */
+.bx.bx-moon,
+.bx-sun {
+  font-size: 31px;
+  color: #ff8901;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
+}
+
+body.dark-mode {
+  background-color: #222831;
+  color: #eee;
+}
+
+.login-container .input.dark-mode,
+.input.dark-mode input {
+  color: #eee;
+}
+
+.input.dark-mode .line {
+  border-left: 1px solid #eee;
+}
+
+.input.dark-mode {
+  border: 1px solid #eee;
+}
+
+.btn.dark-mode {
+  color: #222831;
+}
+
+/* responsiv */
+@media screen and (max-width: 768px) {
+  .bck-img1 {
+    width: 146px;
+    height: 257px;
+    top: -71px;
+    left: -69px;
+    opacity: 0.2;
+  }
+
+  .bck-img2 {
+    width: 191px;
+    height: 335px;
+    top: 434px;
+    right: 0;
+    opacity: 0.2;
+  }
+  .logo-img {
+    width: 60px;
+    height: 104px;
+  }
+
+  form .logo-text {
+    font-size: 50px;
+  }
+
+  form h5 {
+    font-size: 16px;
+    margin-top: -11px;
+  }
+
+  form h6 {
+    font-size: 8px;
+  }
+
+  .input {
+    width: 100%;
+    height: 33px;
+    margin: 8px auto;
+  }
+
+  .input i {
+    font-size: 1rem;
+    line-height: 33px;
+  }
+
+  .line {
+    height: 16px;
+  }
+
+  .input input {
+    font-size: 10px;
+    padding: 1px;
+  }
+
+  .btn {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+  }
+}

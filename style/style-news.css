@@ -1,0 +1,120 @@
+body {
+  height: 2000px;
+}
+
+.slider_news {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 88vw;
+      grid-template-columns: 88vw;
+  -ms-grid-rows: 3em 1fr;
+      grid-template-rows: 3em 1fr;
+  gap: 1em;
+}
+
+.slider_news .header_news {
+  position: relative;
+  width: 270px;
+  height: 50px;
+}
+
+.slider_news .header_news h2 {
+  font-size: 2em;
+  color: #444;
+}
+
+.slider_news .header_news::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: #ff8901;
+  width: 50px;
+  height: 5px;
+  border-radius: 20px;
+}
+
+.slider_news .splide4.splide .splide__slide .cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .img::after {
+  content: "";
+  width: 1130px;
+  height: 90px;
+  position: absolute;
+  background-color: #444;
+  left: 103px;
+  bottom: 0;
+  opacity: 0.4;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .img img {
+  height: 550px;
+  width: 1130px;
+  background-size: cover;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .text {
+  color: #fefdd8;
+  position: absolute;
+  bottom: 30px;
+  left: 120px;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .text h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1em;
+  width: 4em;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #ff8901;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .text h4 {
+  margin-top: 10px;
+  padding-left: 15px;
+  text-shadow: #444;
+}
+
+.slider_news .splide4.splide .splide__slide .cont .text h6 {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.trending_news h2 {
+  font-size: 2em;
+  color: #444;
+}
+
+body.dark-mode main .slider_news .header_news::after {
+  background-color: #fec50a;
+}
+
+body.dark-mode main .slider_news .header_news h2 {
+  color: #eeeeee;
+}
+
+body.dark-mode main .slider_news .splide4.splide .splide__slide .cont .img::after {
+  background-color: #222831;
+  opacity: 0.8;
+}
+
+body.dark-mode main .slider_news .splide4.splide .splide__slide .cont .text {
+  color: #eeeeee;
+}
+
+body.dark-mode main .slider_news .splide4.splide .splide__slide .cont .text h2 {
+  color: #222831;
+  background-color: #fec50a;
+}
+/*# sourceMappingURL=style-news.css.map */
