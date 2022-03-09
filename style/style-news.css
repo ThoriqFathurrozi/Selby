@@ -103,7 +103,7 @@ body {
       grid-template-columns: 1fr 1fr 1fr;
 }
 
-.trending_news .trending_contents .trending_container {
+.trending_news .trending_contents .content .content_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,6 +114,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.trending_news .trending_contents .content .content_container img {
+  width: 100%;
 }
 
 body.dark-mode main .slider_news .header_news::after {

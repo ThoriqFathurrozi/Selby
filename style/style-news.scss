@@ -106,10 +106,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    .trending_container {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
+    .content {
+      .content_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
 }
