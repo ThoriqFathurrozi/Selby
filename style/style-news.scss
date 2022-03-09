@@ -190,5 +190,24 @@ body.dark-mode {
         }
       }
     }
+    .trending_news {
+      .header_news {
+        h2 {
+          color: $background-color;
+        }
+        &::after {
+          background-color: $third-color;
+        }
+      }
+      .trending_contents {
+        .content {
+          .content_container {
+            a {
+              color: $dark-color2;
+            }
+          }
+        }
+      }
+    }
   }
 }

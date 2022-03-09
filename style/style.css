@@ -29,6 +29,8 @@ body {
   background-color: #fefdd8;
   color: #ff8901;
   position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 img {

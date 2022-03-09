@@ -182,4 +182,16 @@ body.dark-mode main .slider_news .splide4.splide .splide__slide .cont .text h2 {
   color: #222831;
   background-color: #fec50a;
 }
+
+body.dark-mode main .trending_news .header_news h2 {
+  color: #fefdd8;
+}
+
+body.dark-mode main .trending_news .header_news::after {
+  background-color: #fec50a;
+}
+
+body.dark-mode main .trending_news .trending_contents .content .content_container a {
+  color: #eeeeee;
+}
 /*# sourceMappingURL=style-news.css.map */
