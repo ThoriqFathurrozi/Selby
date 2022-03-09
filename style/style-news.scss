@@ -101,6 +101,17 @@ body {
     font-size: 2em;
     color: $primary-color;
   }
+
+  .trending_contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .trending_container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
 }
 
 // dark mode
