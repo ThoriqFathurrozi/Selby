@@ -194,4 +194,8 @@ body.dark-mode main .trending_news .header_news::after {
 body.dark-mode main .trending_news .trending_contents .content .content_container a {
   color: #eeeeee;
 }
+
+body.dark-mode footer .copyright h4 {
+  color: #eeeeee;
+}
 /*# sourceMappingURL=style-news.css.map */

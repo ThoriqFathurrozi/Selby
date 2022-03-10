@@ -135,6 +135,7 @@ header .feature .search_box {
 }
 
 header .feature i {
+  cursor: pointer;
   font-size: 25px;
 }
 

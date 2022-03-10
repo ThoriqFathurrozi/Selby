@@ -210,4 +210,12 @@ body.dark-mode {
       }
     }
   }
+
+  footer {
+    .copyright {
+      h4 {
+        color: $dark-color2;
+      }
+    }
+  }
 }
