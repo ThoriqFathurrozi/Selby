@@ -389,8 +389,7 @@ section {
   }
   .splide__slide {
     display: flex;
-    padding: 20px;
-
+    padding: 15px 10px 10px 10px;
     .splide__slide__container {
       position: relative;
       transition: 0.5s 0.2s;
@@ -425,7 +424,6 @@ section {
     }
     .text {
       position: relative;
-      padding-right: 1em;
       h3 {
         text-transform: capitalize;
         font-size: 20px;
@@ -589,7 +587,8 @@ section {
           background-color: $background-color;
           transition: 0.5s 0.1s;
           &:hover {
-            box-shadow: 1px 2px 5px 2px rgba($color: $secondary-color, $alpha: 0.5);
+            box-shadow: 1px 2px 5px 2px
+              rgba($color: $secondary-color, $alpha: 0.5);
           }
         }
         display: flex;
@@ -894,7 +893,8 @@ body.dark-mode {
             background-color: $dark-color1;
             border: 3px solid $third-color;
             &:hover {
-              box-shadow: 1px 2px 5px 2px rgba($color: $third-color, $alpha: 0.5);
+              box-shadow: 1px 2px 5px 2px
+                rgba($color: $third-color, $alpha: 0.5);
             }
           }
         }
